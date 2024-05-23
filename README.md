@@ -16,19 +16,19 @@ The task is to identify frames in a video where a staff member (with a name tag)
 9.	Result Aggregation: Compile the results to list frames where the staff is present and their corresponding coordinates in a text file.
 
 ## System Design
-![image](https://github.com/Hm-08/Staff-Identification/assets/64012738/11c8c157-0cff-495a-be83-a071b343affc)
+![image](https://github.com/Hm-08/Staff-Identification/assets/64012738/f6ea6905-a34f-4cd3-ae3d-df4953e248ef)
 
 ## Tools and Libraries
-•	Python: Programming language used for implementation.
-•	OpenCV: For image processing and frame extraction.
-•	Roboflow: For dataset preparation and deployment.
-•	Google Colab: For training the custom model.
-•	Ultralytics: For implementing YOLOv8 models.
+- Python: Programming language used for implementation.
+- OpenCV: For image processing and frame extraction.
+- Roboflow: For dataset preparation and deployment.
+- Google Colab: For training the custom model.
+- Ultralytics: For implementing YOLOv8 models.
 
 ## Outputs
-•	sample.avi: Output video from inference with the custom model in Colab Notebook.
-•	sample.mp4_out.mp4: Output video with the number of detected staff.
-•	staff_coordinates.txt: Text file with frame number and xy coordinates of the staff.
+- sample.avi: Output video from inference with the custom model in Colab Notebook.
+- sample.mp4_out.mp4: Output video with the number of detected staff.
+- staff_coordinates.txt: Text file with frame number and xy coordinates of the staff.
 
 ## Conclusion
 This solution provides a systematic approach to identifying staff presence in video clips by detecting staff name tags and locating their coordinates. The implementation leverages computer vision techniques and can be further refined with more sophisticated models (e.g. YOLOv9) or a larger dataset for higher accuracy.
